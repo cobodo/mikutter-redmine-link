@@ -1,4 +1,4 @@
-Plugin.create(:"mikutter-redmine") do
+Plugin.create(:"mikutter-redmine-link") do
   re = %r/🎫([0-9]+)(?:-([0-9]+))?/
 
   filter_score_filter do |model, note, yielder|
